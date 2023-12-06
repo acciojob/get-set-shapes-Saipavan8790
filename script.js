@@ -19,7 +19,7 @@ class Rectangle {
   }
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	constructor(side) {
     // In a square, width and height are the same
     super(side, side);
